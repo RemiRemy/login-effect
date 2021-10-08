@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(247, 245, 245);
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(247, 245, 245);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carte {
+    display: flex;
+    width: 800px;
+}
+.floute
+{
+   position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 550px;
+    background-image: url(/assets/img/kunal-shinde--f0YLss50Bs-unsplash.jpg);
+    filter:blur(5px) brightness(3);
+    opacity: 0.8;
+    z-index: 0;
+}
+.container {
+    
+     position: absolute; 
+    width: 400px;
+    height: 550px;
+    background-color: rgba(224, 225, 212, 0.3);
+   
+    overflow: hidden;
+    box-shadow: #09300b 0px 0px 20px 1px ;
+    border-radius: 5px;
+    z-index: 10;
+    
+}
+
+article{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/kunal-shinde--f0YLss50Bs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.button {
+    display: flex;
+    padding: 8px 110px ;
+    background: linear-gradient(to right, #0a9943, #ffc105);
+    width: fit-content;
+    justify-content: center;
+    border-radius: 90px;
+    f
+}
+
+.entete{ 
+    display: flex;
+    height: 200px;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnSwitch a{     
+  
+    text-decoration: none;   
+    z-index: 10; 
+}
+
+
+
+.btnSwitch {
+    position: relative;
+    display: flex;
+    /* margin-top: 50px; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(248, 248, 248);
+    padding: 25px 20px;
+    width: 250px;
+    height: 30px;
+
+}
+
+.btnSwitch::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 138px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #0a9943, #ffc105);
+    opacity: 0.9;
+
+}
+
+.fab {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+    margin: 0 20px;
+    background: linear-gradient(to right, #0a9943, #ffc105);
+    border-radius: 50%;
+    color:  white;
+    
+    
+}
+
+
+
+.containerLogo {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 75%;
+    
+}
+
+.check {
+    margin: 20px 0;
+}
+
+.autour {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* label {
+    margin: 20px 0;
+} */
+
+/* .autour {
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(to right, rgb(255 87 34 / 20%), rgb(255 193 5 / 20%));
+    border-radius: 50%;
+    padding: 50px;
+} */
