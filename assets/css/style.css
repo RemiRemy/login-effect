@@ -28,6 +28,7 @@
 .carte {
     display: flex;
     width: 800px;
+    /* transform: translateX(-400px); */
 }
 
 .container {
@@ -110,6 +111,12 @@ article{
     border-radius: 50px;
     background: linear-gradient(to right, #0a9943, #ffc105);
     opacity: 0.9;
+}
+
+.btnSwitch.registerbtn::before {
+    left: auto;
+    right: 0;
+    
 }
 
 
