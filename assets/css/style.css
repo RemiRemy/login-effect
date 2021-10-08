@@ -9,7 +9,7 @@
     flex-direction: column;
     width: 400px;
     height: 350px;
-    background-color: rgb(247, 245, 245);
+    background-color: rgba(247, 245, 245, 0.9);
     align-items: center;
     justify-content: center;
 }
@@ -29,32 +29,20 @@
     display: flex;
     width: 800px;
 }
-.floute
-{
-   position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 400px;
-    height: 550px;
-    background-image: url(/assets/img/kunal-shinde--f0YLss50Bs-unsplash.jpg);
-    filter:blur(5px) brightness(3);
-    opacity: 0.8;
-    z-index: 0;
-}
+
 .container {
     
-     position: absolute; 
+    /* position: relative; */
     width: 400px;
     height: 550px;
-    background-color: rgba(224, 225, 212, 0.3);
-   
+    background-color: rgba(224, 225, 212, 0.2);
+    
     overflow: hidden;
     box-shadow: #09300b 0px 0px 20px 1px ;
-    border-radius: 5px;
-    z-index: 10;
+    border-radius: 8px;
+    border-top: 1px solid rgba(224, 225, 212, 0.2);
+    border-left: 1px solid rgba(224, 225, 212, 0.2);
+    backdrop-filter: blur(6px);
     
 }
 
@@ -77,7 +65,7 @@ article{
     width: fit-content;
     justify-content: center;
     border-radius: 90px;
-    f
+    cursor: pointer;
 }
 
 .entete{ 
@@ -115,14 +103,16 @@ article{
     content: "";
     position: absolute;
     top: 0;
-    left: 45%;
+    /* left: 45%; */
+    left: 0;
     width: 138px;
     height: 50px;
     border-radius: 50px;
     background: linear-gradient(to right, #0a9943, #ffc105);
     opacity: 0.9;
-
 }
+
+
 
 .fab {
     display: flex ;
